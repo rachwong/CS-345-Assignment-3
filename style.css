@@ -16,20 +16,9 @@ ul.left {
     position: fixed;
     height: 100%;
     overflow: auto;
-	   border-right: thick double black;
+	  border-right: thick double black;
 }
-ul.right {
-    list-style-type: none;
-    margin-top: 0;
-    padding-top: 0;
-    width: 20%;
-    background-color: #E498AF;
-    position: fixed;
-    right: 0px;
-    height: 100%;
-    overflow: auto;
 
-}
 li.logo{
   height: 200px;
 }
@@ -72,15 +61,18 @@ table{
   border: 1px solid black;
   height: 250px;
   width: 250px;
-  background-color: #003A3A;
+  background-color: #D6D7D8;
 }
 th{
-  border: 1px solid black;
-  font-size: 30px;
+  background-color: #186868;
+  font-size: 20px;
+  text-transform: uppercase;
   color: white;
+  text-align: center;
 }
+
 table:hover{
-  background-color: white;
+  background-color: #F6E8D6;
 }
 article{
     padding: 20px;
