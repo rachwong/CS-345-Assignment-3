@@ -60,13 +60,22 @@ h2{
   border-bottom: solid black;
 }
 table{
-  border: 1px solid black;
+  
   border-radius: 4px;
   height: 250px;
   width: 250px;
-  background-color: #D6D7D8;
 }
-th{
+table.sub{
+	background-color: #D6D7D8;
+}
+
+table.feedback{
+	background-color: #555;
+}
+table.out{
+	background-color: #eee;
+}
+th.banner{
   background-color: #186868;
   font-size: 20px;
   color: white;
