@@ -1,7 +1,7 @@
 body {
   margin: 0;
 	background-color: #F6E8D6;
-	font-family: Verdana,sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 }
 ul{
@@ -61,6 +61,7 @@ h2{
 }
 table{
   border: 1px solid black;
+  border-radius: 4px;
   height: 250px;
   width: 250px;
   background-color: #D6D7D8;
@@ -70,6 +71,7 @@ th{
   font-size: 20px;
   color: white;
   text-align: center;
+  border-radius: 4px;
 }
 
 
@@ -117,6 +119,7 @@ p.assignment{
     margin: 0;
     padding: 10px 0;
     background-color: #ddd;
+
 }
 
 .weekdays li {
@@ -130,6 +133,7 @@ p.assignment{
     padding: 10px 0;
     background: #eee;
     margin: 0;
+    border-radius: 4px;
 }
 
 .days li {
@@ -149,7 +153,7 @@ p.assignment{
 }
 section.calendar{
 	padding: 50px;
-	padding-top: 20px;
+	padding-top: 30px;
 }
 p.todo{
   padding: 10px;
