@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+	background-color: #F6E8D6;
+	font-family: Verdana,sans-serif;
+
+}
+ul{
+	list-style-type: none;
+}
+ul.left {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #186868;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+	   border-right: thick double black;
+}
+ul.right {
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 0;
+    width: 20%;
+    background-color: #E498AF;
+    position: fixed;
+    right: 0px;
+    height: 100%;
+    overflow: auto;
+
+}
+li.logo{
+  height: 200px;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 50px;
+    font-size: 30px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #003A3A;
+    color: white;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+header{
+  width: 50%;
+  padding: 10px;
+  border-bottom: solid black;
+}
+h2{
+  width: 50%;
+  padding: 10px;
+  border-bottom: solid black;
+}
+table{
+  border: 1px solid black;
+  height: 250px;
+  width: 250px;
+  background-color: #003A3A;
+}
+th{
+  border: 1px solid black;
+  font-size: 30px;
+  color: white;
+}
+table:hover{
+  background-color: white;
+}
+article{
+    padding: 20px;
+    display: inline-block;
+    margin: auto;
+	padding-top: 7%;
+}
+p.assignment{
+  border: 1px solid black;
+  height: 200px;
+  width: 50%;
+}
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #186868;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #186868;
+    color: white !important
+}
+section.calendar{
+	padding: 50px;
+	padding-top: 20px;
+}
+p.todo{
+  padding: 10px;
+  border-bottom: solid black 1px;
+}
