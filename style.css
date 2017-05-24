@@ -49,12 +49,14 @@ article a {
 li a.active {
     background-color: #003A3A;
     color: white;
+    text-decoration: none;
 }
 
 
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
+    text-decoration: none;
 }
 header{
   width: 50%;
