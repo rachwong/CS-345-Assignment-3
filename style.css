@@ -6,6 +6,7 @@ body {
 }
 ul{
 	list-style-type: none;
+  letter-spacing: 2px;
 }
 ul.left {
     list-style-type: none;
@@ -49,6 +50,7 @@ header{
   padding: 10px;
   padding-left:20px;
   border-bottom: solid black;
+  letter-spacing: 2px;
 
 }
 h2{
@@ -57,7 +59,7 @@ h2{
   border-bottom: solid black;
 }
 table{
-  
+
   border-radius: 4px;
   height: 250px;
   width: 250px;
@@ -103,38 +105,45 @@ p.assignment{
   border-radius: 5px;
   background-color: #eee;
   overflow: scroll;
-  
+
 }
 p.asssub{
   border: 1px solid black;
   height: 100px;
   width: 100%;
-  padding: 20px;
+  text-align: center;
   border-radius: 5px;
   background-color: #eee;
+
+}
+p.scope{
+  font-size: 100px;
 }
 div.specs, .submit{
 	padding-top: 50px;
 	padding-left: 50px;
 	padding-right: 50px;
 	position:relative;
-	
-	
 }
 
-div.button{
+div.submitbutton{
 	padding-left: 50px;
 	float: right;
 	padding-right: 50px;
 }
-div.submitbutton{
+div.button{
 	position: absolute;
-	
+
 }
+button{
+  border-radius: 4px;
+}
+
 .month {
     padding: 70px 25px;
     width: 100%;
     background: #186868;
+    border-radius: 4px;
 }
 
 .month ul {
