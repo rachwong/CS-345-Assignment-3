@@ -22,6 +22,8 @@ ul.left {
 
 li.logo{
   height: 200px;
+  text-align: center;
+  padding-top: 20px;
 }
 li a {
     display: block;
