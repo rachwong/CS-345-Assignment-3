@@ -31,9 +31,6 @@ li a {
     font-size: 30px;
 }
 
-article a {
-    text-decoration: none;
-}
 
 li a.active {
     background-color: #003A3A;
@@ -88,13 +85,51 @@ article{
     padding: 20px;
     display: inline-block;
     margin: auto;
-	  padding-top: 7%;
+	padding-top: 7%;
     padding-right: 50px;
 }
+article:hover{
+	opacity: 0.3;
+}
+article a {
+    text-decoration: none;
+}
+
 p.assignment{
   border: 1px solid black;
-  height: 200px;
-  width: 50%;
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #eee;
+  overflow: scroll;
+  
+}
+p.asssub{
+  border: 1px solid black;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #eee;
+}
+div.specs, .submit{
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	position:relative;
+	
+	
+}
+
+div.button{
+	padding-left: 50px;
+	float: right;
+	padding-right: 50px;
+}
+div.submitbutton{
+	position: absolute;
+	
 }
 .month {
     padding: 70px 25px;
