@@ -126,7 +126,7 @@ div.specs, .submit{
 	position:relative;
 }
 
-div.submitbutton{
+div.submitbutton, .feedbackbutton{
 	padding-left: 50px;
 	float: right;
 	padding-right: 50px;
@@ -134,6 +134,10 @@ div.submitbutton{
 div.button{
 	position: absolute;
 
+}
+input.feedback {
+    width: 60%;
+    height: 50px;
 }
 button{
   border-radius: 4px;
