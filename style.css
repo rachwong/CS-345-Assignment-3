@@ -19,7 +19,9 @@ ul.left {
     overflow: auto;
 	  border-right: thick double black;
 }
-
+i {
+  color:#F6E8D6;
+}
 li.logo{
   height: 200px;
   text-align: center;
@@ -31,7 +33,8 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
     height: 80px;
-    font-size: 30px;
+    font-size: 25px;
+    color: white;
 }
 
 
@@ -83,20 +86,33 @@ th.banner{
   text-align: center;
   border-radius: 4px;
 }
+th.fb, .sb{
+  text-align: center;
 
+}
+.fb{
+  color: #D6D7D8;
+}
+.sb{
+  color: #555;
+}
 
 article{
     padding: 20px;
     display: inline-block;
     margin: auto;
-	padding-top: 7%;
+	  padding-top: 7%;
     padding-right: 50px;
 }
 article:hover{
 	opacity: 0.3;
+  text-decoration: none;
 }
-article a {
+a {
     text-decoration: none;
+}
+a.todo:visited {
+    color: black;
 }
 
 p.assignment{
